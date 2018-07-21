@@ -1,13 +1,14 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react'
+import { Container } from '../packages/ui'
 
 class Home extends Component {
 	render() {
 		return (
-			<Fragment>
+			<Container>
 				<h1>Home</h1>
-			</Fragment>
-		);
+			</Container>
+		)
 	}
 }
 
-export default Home;
+export default Home

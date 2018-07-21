@@ -8,13 +8,17 @@
     "start": "npm run dev"
   },
   "dependencies": {
+    "ramda": "^0.25.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-router-dom": "^4.3.1"
+    "react-router-dom": "^4.3.1",
+    "styled-components": "^3.3.3",
+    "styled-normalize": "^8.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "prettier": "1.13.7"
   }
 }

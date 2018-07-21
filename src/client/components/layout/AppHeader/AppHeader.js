@@ -1,11 +1,21 @@
 import React, { Fragment } from 'react'
+import styled from 'styled-components'
+import { Container } from '../../../packages/ui'
 
-const AppHeader = (props) => {
+const AppHeaderStyled = styled.div`
+	height: 84px;
+	background: #ccc;
+	overflow: hidden;
+`
+
+const AppHeader = props => {
 	return (
-		<Fragment>
-			<h1>App Header</h1>
-		</Fragment>
-	);
+		<AppHeaderStyled>
+			<Container>
+				<h1>App Header</h1>
+			</Container>
+		</AppHeaderStyled>
+	)
 }
 
-export default AppHeader;
+export default AppHeader
