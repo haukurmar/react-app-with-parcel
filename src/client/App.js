@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment } from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './routes/Home'
 import { AppHeader } from './components/layout'
@@ -13,4 +13,4 @@ const App = () => (
 		</Router>
 	</Fragment>
 )
-export default App;
+export default App

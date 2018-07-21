@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component, Fragment } from 'react'
 
 class Home extends Component {
 	render() {
@@ -6,8 +6,8 @@ class Home extends Component {
 			<Fragment>
 				<h1>Home</h1>
 			</Fragment>
-		);
+		)
 	}
 }
 
-export default Home;
+export default Home

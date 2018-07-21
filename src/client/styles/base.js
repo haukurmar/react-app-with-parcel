@@ -15,14 +15,13 @@ export const base = {
 }
 
 const baseStyles = css`
-	${styledNormalize}
-	html,
+	${styledNormalize} html,
 	body {
 		min-height: 100%;
 		height: 100%;
 		font-size: ${base.fontSize};
 	}
-	
+
 	body {
 		padding: 0;
 		margin: 0;
@@ -34,7 +33,7 @@ const baseStyles = css`
 		overflow-x: hidden;
 		min-width: ${base.pageMinWidth};
 	}
-	
+
 	body * {
 		box-sizing: border-box;
 	}
@@ -47,19 +46,18 @@ const baseStyles = css`
 			text-decoration: none;
 		}
 	}
-	
+
 	fieldset {
 		border: none;
 		padding: 0;
 		margin: 0;
 	}
-	
+
 	#react-app {
 		width: 100%;
 		height: 100%;
 	}
 
-	
 	/* IE10 and under support for hidden attribute */
 	*[hidden] {
 		display: none;
