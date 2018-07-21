@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import { ThemeProvider } from 'styled-components'
+import { injectGlobal } from 'styled-components'
+import { baseStyles, theme } from './styles'
 
 const MOUNT_NODE = document.getElementById('react-app')
 
+// eslint-disable-next-line
+injectGlobal`${baseStyles}`
+
+
 const render = () => {
 	ReactDOM.render(
-		<App />,
+		<ThemeProvider theme={theme}>
+			<App />
+		</ThemeProvider>,
 		MOUNT_NODE,
 	)
 }
