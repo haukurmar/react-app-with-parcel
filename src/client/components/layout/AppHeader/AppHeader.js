@@ -4,7 +4,7 @@ import { Container } from '../../../packages/ui'
 
 const AppHeaderStyled = styled.div`
 	height: 84px;
-	background: red;
+	background: #ccc;
 	overflow: hidden;
 `
 

@@ -12,7 +12,6 @@ const StyledContainer = styled.div`
 	display: block;
 	max-width: 100%;
 	margin: 0 auto;
-	background: green;
 	&&& {
 		${media.mobile`
 			width: ${mobileWidth};
