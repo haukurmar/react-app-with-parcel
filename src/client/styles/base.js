@@ -34,6 +34,36 @@ const baseStyles = css`
 		overflow-x: hidden;
 		min-width: ${base.pageMinWidth};
 	}
+	
+	body * {
+		box-sizing: border-box;
+	}
+
+	a {
+		color: ${base.link.color};
+		text-decoration: 'underline';
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	
+	fieldset {
+		border: none;
+		padding: 0;
+		margin: 0;
+	}
+	
+	#react-app {
+		width: 100%;
+		height: 100%;
+	}
+
+	
+	/* IE10 and under support for hidden attribute */
+	*[hidden] {
+		display: none;
+	}
 `
 
 export default baseStyles
